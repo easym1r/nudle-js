@@ -1,0 +1,29 @@
+.header-container {
+    display: flex;
+
+    height: 50px;
+
+    padding: var(--spacing-small);
+
+    background-color: var(--color-medium);
+}
+
+.header-title {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    padding-left: var(--spacing-small);
+
+    font-weight: bold;
+}
+
+.header-counter {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    padding-right: var(--spacing-small);
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
